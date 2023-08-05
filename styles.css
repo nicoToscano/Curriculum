@@ -1,13 +1,15 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #e5f2e5;
+    background-color: #B1BFCA;
+    font-family: 'Calibri Light', sans-serif;                                                
+    font-size: 20px;
 }
 
 .container {
     max-width: 800px;
     margin: 20px auto;
-    background-color: #fff;
+    background-color: #F5F7F8;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     padding: 20px;
     border-radius: 5px;
@@ -36,7 +38,7 @@ table {
 table,
 th,
 td {
-    border: 1px solid black;
+    border: 1px solid #ccc;
 }
 
 th,

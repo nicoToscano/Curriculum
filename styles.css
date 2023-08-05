@@ -1,24 +1,16 @@
-/*body {
-    
-    line-height: 1.6;
-    margin: 20px;
-    background-color: antiquewhite;
-}*/
-
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #e5f2e5; /* Color de fondo similar al de una hoja de papel */
+    background-color: #e5f2e5;
 }
 
 .container {
     max-width: 800px;
-    margin: 20px auto; /* Centrar el contenedor en la página */
-    background-color: #fff; /* Fondo blanco para simular una hoja de papel */
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    border-radius: 5px; /* Bordes redondeados */
+    border-radius: 5px;
 }
 
 header {
@@ -41,21 +33,16 @@ table {
     border-collapse: collapse;
 }
 
-table, th, td {
+table,
+th,
+td {
     border: 1px solid black;
 }
 
-th, td {
+th,
+td {
     padding: 8px;
     text-align: left;
-}
-
-video {
-    width: 100%;
-}
-
-section {
-    margin-bottom: 20px;
 }
 
 section h2 {
@@ -65,4 +52,17 @@ section h2 {
 
 p {
     margin: 8px 0;
+}
+
+#video {
+    width: 100%;
+    text-align: center;
+}
+
+.video-container {
+    display: inline-block;
+}
+
+iframe {
+    max-width: 100%;
 }

@@ -1,0 +1,68 @@
+/*body {
+    
+    line-height: 1.6;
+    margin: 20px;
+    background-color: antiquewhite;
+}*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e5f2e5; /* Color de fondo similar al de una hoja de papel */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto; /* Centrar el contenedor en la página */
+    background-color: #fff; /* Fondo blanco para simular una hoja de papel */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+    padding: 20px;
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    max-width: 150px;
+    border-radius: 10%;
+}
+
+h1 {
+    margin: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+video {
+    width: 100%;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    border-bottom: 1px solid black;
+    padding-bottom: 8px;
+}
+
+p {
+    margin: 8px 0;
+}
